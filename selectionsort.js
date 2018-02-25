@@ -1,4 +1,5 @@
 var sort = function selectionSort(arr) {
+	var min;
 	for(var i = 0;i < arr.length;i++) {
 		//set minimum to this position
 		min = i;
